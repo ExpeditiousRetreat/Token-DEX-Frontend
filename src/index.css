@@ -1,0 +1,168 @@
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    font-family: serif;
+    background: white !important;
+}
+
+
+.help-link {
+    color: blue;
+    text-decoration: underline !important;
+}
+.toy {
+    text-align: left;
+    display: inline-block;
+}
+.buy-button {
+    border-style: solid !important;
+    border-width: 1px;
+    margin-left: 35%;
+}
+.all-squares {
+    border-style: solid !important;
+    border-width: 4px;
+}
+
+
+.biji-info {
+    margin-top: 18%;
+}
+.content {
+    display: inline-block;
+
+}
+
+.photo-container {
+    padding-top: 10px;
+}
+
+
+
+#social-links-wrapper {
+    margin-top:1em;
+    margin-bottom:1em;
+    margin-right: 20px;
+}
+
+.large-4.columns.love {
+    margin-top: 70px;
+}
+
+
+
+.fab{
+  font-size: 30px;
+  color: black;
+}
+
+.far {
+    font-size: 30px;
+    color: black;
+}
+
+a:link {
+    text-decoration: none;
+    color: #4B4F56;
+}
+
+.social-links {
+    list-style-type: none;
+    display: inline;
+}
+
+ul.social-links li {
+    display: inline;
+    font-size: 1.25;
+    padding: 3px;
+
+}
+
+.main-outer {
+    display: table;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.main-middle {
+    display: table-cell;
+}
+
+.main-container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+    float:left;
+}
+
+.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.status {
+  margin-bottom: 10px;
+}
+
+.test {
+    height:20px;
+    width: 20px;
+}
+
+
+.square {
+  background: #fff;
+  border: 1px solid #999;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+}
+
+.dimmed {
+    filter: brightness(60%);
+}
+
+.square:focus {
+  outline: none;
+}
+
+.kbd-navigation .square:focus {
+  background: #ddd;
+}
+
+.menu-bar {
+    background-color: grey;
+    border-style: solid !important;
+    border-width: 4px;
+    border-bottom-width: 0px;
+}
+
+.menu-options {
+    margin-top: 25px;
+    text-align: center;
+    color: white;
+}
+
+.menu-item {
+    float: left;
+}
+
+.game {
+  flex-direction: row;
+}
+
+.game-info {
+  margin-left: 20px;
+  height: 40px;
+}
