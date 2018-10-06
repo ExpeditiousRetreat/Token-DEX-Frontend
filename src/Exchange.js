@@ -4,22 +4,35 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './foundation.min.css';
 
-
 export default class Exchange extends React.Component {
-
     constructor() {
         super()
         this.state = {
-            isSelling: false,
+
         }
     }
 
-
     render() {
+
         return (
-            <row>
-                "blah"
-            </row>
+            <div className= "main-middle">
+                <row>
+                    <div className="large-6 columns window orders">
+                        love
+                    </div>
+                    <div className="large-6 columns window user-tokens">
+                        love
+                    </div>
+                </row>
+                <row>
+                    <div className="large-6 columns window graph">
+                        love
+                    </div>
+                    <div className="large-6 columns window recent-trades">
+                        love
+                    </div>
+                </row>
+            </div>
         )
     }
 

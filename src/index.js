@@ -16,11 +16,7 @@ class App extends React.Component {
     render() {
         return (
             <div className="main-outer">
-                <div className= "main-middle">
-                    <div className="main-container">
-                        "blah"
-                    </div>
-                </div>
+                    <Exchange />
             </div>
         );
     }
