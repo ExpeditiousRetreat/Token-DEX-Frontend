@@ -1,0 +1,12 @@
+# mac os
+.DS_STORE
+
+# node
+node_modules
+
+# sublime
+*.sublime-project
+*.sublime-workspace
+
+# intellij
+.idea
