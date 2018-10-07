@@ -2,23 +2,24 @@ import getWeb3 from './utils/getWeb3'
 import getAccounts from './utils/getAccounts'
 import React from 'react';
 import ReactDOM from 'react-dom';
+import OrderBook from "./OrderBook.js"
 import './foundation.min.css';
+
 
 export default class Exchange extends React.Component {
     constructor() {
         super()
         this.state = {
-
+            
         }
     }
 
     render() {
-
         return (
             <div className= "main-middle">
                 <row>
                     <div className="large-6 columns window orders">
-                        love
+                        <OrderBook />
                     </div>
                     <div className="large-6 columns window user-tokens">
                         love
